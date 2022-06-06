@@ -538,10 +538,14 @@ align-self: center;
 
 .collapsible__chevron {
     transform: rotate(-90deg);
+    transition: transform .3s;
 }
 
 .collapsible__content {
-    display: none ;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .3s;
 }
 
 .collapsible--expanded .collapsible__chevron {
@@ -549,5 +553,6 @@ align-self: center;
 }
 
 .collapsible--expanded .collapsible__content {
-    display: block;
+    max-height: 100vh;
+    opacity: 1;
 }
