@@ -748,3 +748,8 @@ a:hover {
     max-width: 500px;
     margin: 0 auto;
 }
+/*Feature */
+
+.feature__heading {
+    margin: 1rem 0;
+}
