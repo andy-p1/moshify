@@ -502,7 +502,11 @@ font-style: normal;
     margin: 0 3rem;
 }
 
-.testimonial__image>.icon-container {
+.testimonial__image > img {
+    width: 100%;
+  }
+
+.testimonial__image > .icon-container {
     position: absolute;
     top: 3rem;
     right: -32px;
@@ -600,6 +604,7 @@ align-self: center;
 }
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
